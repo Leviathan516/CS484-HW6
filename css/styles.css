@@ -21,6 +21,16 @@ body {
     line-height: 1.6;
 }
 
+header img {
+    width: 150px;          /* Controls overall size */
+    height: 150px;         /* Keeps it square */
+    object-fit: cover;     /* Crops nicely without distortion */
+    border-radius: 50%;    /* Makes it circular (remove if you want square) */
+    border: 4px solid #A68A64; /* Camel color from your palette */
+    display: block;
+    margin: 0 auto 15px auto;  /* Centers the image */
+}
+
 /* Layout spacing */
 header, section, footer {
     max-width: 900px;
